@@ -1,0 +1,160 @@
+@import '../../index.scss';
+// card
+
+.card{
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    background-color: var(--bs-secondary-bg) !important;
+    border: none !important;
+    padding: 0 !important;
+.card-img{
+    width: 50px;
+    height: 50px;
+}
+    .card-body{
+        padding: 20px 15px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .card-title{
+        font-weight: 600;
+        color: var(--bs-primary-text);
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .card-text{
+        font-weight: 500;
+        color: var(--bs-secondary-text);
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .card-footer{
+        padding: 20px 15px !important;
+        background-color: unset;
+        color: var(--bs-primary-text);
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+// modal
+.modal-header {
+    // box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+    border: 0;
+    padding: 1rem;
+  
+    .modal-title {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  
+    .btn-close {
+      box-shadow: none;
+    }
+  }
+  
+  .modal-content{
+    border: none !important;
+  }
+  .modal-body {
+    padding: 40px 35px !important;
+  
+    .profile-lists ul > li {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+  }
+  
+  .form-modal {
+    display: flex;
+    flex-direction: column;
+  
+    .form-modal-sub-title {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      color: #7c7c7c;
+      padding: 10px 0px;
+    }
+  }
+  
+  .err-feedback {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 90%;
+    color: #dc3545;
+  }
+  
+  .modal-backdrop.form-modal-backdrop.show {
+    opacity: 0.6 !important;
+    background-color: rgba(56, 56, 56, 0.16);
+    backdrop-filter: blur(2px);
+  }
+  
+  .modal-backdrop.form-modal-backdrop.show {
+    opacity: 0.6 !important;
+    background-color: rgba(56, 56, 56, 0.16);
+    backdrop-filter: blur(2px);
+  }
+  .pdf-header{
+    background-color:rgb(50, 54, 57) ;
+    border: none !important;
+  }
+  .modal-backdrop.viewPdf {
+    opacity: 1 !important;
+    background-color: rgb(50, 54, 57);
+    
+  }
+  .hideLine{
+    padding: 40px !important;
+  }
+
+//   button
+
+.btn {
+    padding: 7px 1.5rem !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+  
+    &.filter {
+      padding: 7px 1.5rem !important;
+      &:hover,
+      &:active,
+      &:focus {
+        svg {
+          fill: var(--bs-black);
+          path {
+            fill: var(--bs-black);
+          }
+        }
+      }
+    }
+    &.btn-action {
+      padding: 0 0 !important;
+      border: 0px !important;
+    }
+    &.btn-outline-primary {
+      svg {
+        fill: var(--bs-primary);
+        path {
+          fill: var(--bs-primary);
+        }
+      }
+      &:hover,
+      &:active,
+      &:focus {
+        svg {
+          fill: var(--bs-white);
+          path {
+            fill: var(--bs-white);
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,19 @@
+// dashboard
+
+.dashboard-container{
+    h1{
+        margin-bottom: 40px;
+      }
+    .dashboard-card-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+// explore
+
+.explore-container{
+    display: flex;
+    // gap: 20px;
+}
